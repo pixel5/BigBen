@@ -1,5 +1,4 @@
 import irclib
-import csv
 import random
 class quote:
     def on_pubmsg(self, nick, connection, event):
