@@ -1,5 +1,5 @@
-__all__ = ["decide", "eat", "echo", "feet", "fortunes", "fourchan", "google", "htmlconvert", "imdb", "isup", "lastspoke", "nowplaying", "pagetitle", "ping", "question", "rt", "roll", "sed", "shorten", "tell", "tz", "tweet", "weather", "urban", "youtube", "help"]
-__enabled__ = ["decide", "eat", "echo", "feet", "fortunes", "fourchan", "google", "htmlconvert", "imdb", "isup", "lastspoke", "nowplaying", "pagetitle", "ping", "question", "roll", "rt", "sed", "shorten", "tell", "tz", "tweet", "urban", "weather", "youtube", "help"]
+__all__ = ["decide", "eat", "echo", "feet", "fortunes", "fourchan", "google", "htmlconvert", "imdb", "isup", "lastspoke", "nowplaying", "pagetitle", "ping", "question", "rt", "roll", "sed", "shorten", "tell", "tz", "tweet", "weather", "urban", "youtube", "help","quote"]
+__enabled__ = ["decide", "eat", "echo", "feet", "fortunes", "fourchan", "google", "htmlconvert", "imdb", "isup", "lastspoke", "nowplaying", "pagetitle", "ping", "question", "roll", "rt", "sed", "shorten", "tell", "tz", "tweet", "urban", "weather", "youtube", "help","quote"]
 __commands__ = {
 	".decide" : "decide",
 	".eat" : "eat",
@@ -21,7 +21,8 @@ __commands__ = {
 	".urban" : "urban",
 	".yt" : "youtube",
 	".tweet": "tweet",
-	".help" : "help"
+	".help" : "help",
+	".quote" : "quote"
 }
 __help__ = {
 	"decide" : ".decide this or that or then - Returns one of the choices\n.flip - returns heads or tails, .flip 5 will also return the stats of 5 flips",
@@ -48,5 +49,6 @@ __help__ = {
 	"weather" : ".w - return a weather of a location, .register_location someplace -will remember the location of given user, .f - will return a forecast",
 	"urban" : ".urban - return definition from urban dictionary",
 	"youtube" : ".yt - search youtube",
-	"help" : ".help - return list of available commands"
+	"help" : ".help - return list of available commands",
+	"quote" : ".quote [name] returns a random saved quote and .quote [name] [quote] will save a new quote"
 }
